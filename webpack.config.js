@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
   },
   plugins: [
     new Dotenv(), // Use dotenv-webpack to load environment variables from .env
