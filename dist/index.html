@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NeutronsRizzyWeatherGame</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="weather-container">
+            <h1 class="condition"></h1>
+            <h2 class="city-name"></h2>
+            <div class="temperature"></div>
+            <div class="small-details">
+                <p class="desc">Feels Like</p>
+                <p id="feels-like"></p>
+                <p class="desc">Humidity</p>
+                <p id="humidity"></p>
+                <p class="desc">Chances Of Rain</p>
+                <p id="chance-of-rain"></p>
+                <p class="desc">Wind Speed</p>
+                <p id="wind-speed"></p>
+            </div>
+        </div>
+        <form class="city-form">
+            <!-- <label for="cityname">Kaun se sheher ki hawa khaana chahte ho?</label><br> -->
+            <input id="cityname" type="text" name="name"><br>
+            <input type="submit" value="Submit">
+          </form>
+    <script src="main.js"></script>
+    </body>
+</html>
