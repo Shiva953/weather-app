@@ -1,4 +1,3 @@
-// require('dotenv').config()
 // First, perform the backend stuff
 // 2. form input validation(take the city name)
 // 3. then put the city name as the query param for the API call and fetch the data
